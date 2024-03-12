@@ -13,7 +13,7 @@
    - **[Mega Satish](https://github.com/msatmod)**
      
 
->**Big Data Analytics [BDA] Mini Project**
+## Big Data Analytics [BDA] Mini Project
 
  - **[Model](https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/blob/main/OPTIMIZING%20STOCK%20TRADING%20STRATEGY%20WITH%20K-MEANS%20CLUSTERING.ipynb)**
 
