@@ -10,7 +10,7 @@
 
   An analytical project utilizing unsupervised machine learning to cluster stocks based on their volatility and returns, identifying latent market patterns and optimizing diversified trading strategies.
 
-  **[Source Code](Source%20code/)** &nbsp;&middot;&nbsp; **[Mini-Project](Mini-Project/)** &nbsp;&middot;&nbsp; **[Curriculum Repository](https://github.com/Amey-Thakur/BIG-DATA-ANALYTICS-AND-COMPUTATIONAL-LAB-I)** &nbsp;&middot;&nbsp; **[Project Demo](https://youtu.be/Q82a93hjxJE)**
+  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Mini-Project](Mini-Project/)** &nbsp;&middot;&nbsp; **[Curriculum Repository](https://github.com/Amey-Thakur/BIG-DATA-ANALYTICS-AND-COMPUTATIONAL-LAB-I)** &nbsp;&middot;&nbsp; **[Project Demo](https://youtu.be/Q82a93hjxJE)**
 
   [![Optimizing Stock Trading Strategy Demo](https://img.youtube.com/vi/Q82a93hjxJE/0.jpg)](https://youtu.be/Q82a93hjxJE)
 
@@ -71,7 +71,7 @@ Developed as a mini-project for the **Big Data Analytics & Computational Lab - I
 
 | # | Resource | Description | Link |
 |---|---|---|---|
-| 1 | **Project Model** | Complete Jupyter Notebook implementation | [View](Source%20code/OPTIMIZING%20STOCK%20TRADING%20STRATEGY%20WITH%20K-MEANS%20CLUSTERING.ipynb) |
+| 1 | **Project Model** | Complete Jupyter Notebook implementation | [View](Source%20Code/OPTIMIZING%20STOCK%20TRADING%20STRATEGY%20WITH%20K-MEANS%20CLUSTERING.ipynb) |
 | 2 | **Technical Report** | Comprehensive project documentation | [View](Mini-Project/BDA_MINI-PROJECT_REPORT_BE-COMPS_B-50,51,58.pdf) |
 | 3 | **Technical Presentation** | Visual overview of methodology and results | [View](Mini-Project/BDA_MINI-PROJECT_PPT_BE-COMPS_B-50,51,58.pdf) |
 | 4 | **Project Demo (YouTube)** | Real-time demonstration of the analysis | [View](https://youtu.be/Q82a93hjxJE) |
