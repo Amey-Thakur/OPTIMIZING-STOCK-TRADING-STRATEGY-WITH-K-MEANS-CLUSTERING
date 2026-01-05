@@ -6,7 +6,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
   ![Status](https://img.shields.io/badge/Status-Completed-success)
   [![Technology](https://img.shields.io/badge/Technology-Python%20%7C%20Scikit--Learn%20%7C%20Pandas-blueviolet)](https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING)
-  [![Developed by Amey Thakur & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%20%26%20Mega%20Satish-blue)](https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING)
+  [![Developed by Amey Thakur, Hasan Rizvi & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%2C%20Hasan%20Rizvi%20%26%20Mega%20Satish-blue)](https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING)
 
   An analytical project utilizing unsupervised machine learning to cluster stocks based on their volatility and returns, identifying latent market patterns and optimizing diversified trading strategies.
 
@@ -42,15 +42,15 @@
   </a>
   </td>
   <td align="center">
-  <a href="https://github.com/msatmod">
-  <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
-  <sub><b>Mega Satish</b></sub>
-  </a>
-  </td>
-  <td align="center">
   <a href="https://github.com/rizvihasan">
   <img src="https://github.com/rizvihasan.png" width="150px;" alt="Hasan Rizvi"/><br />
   <sub><b>Hasan Rizvi</b></sub>
+  </a>
+  </td>
+  <td align="center">
+  <a href="https://github.com/msatmod">
+  <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
+  <sub><b>Mega Satish</b></sub>
   </a>
   </td>
   </tr>
@@ -150,7 +150,7 @@ This repository and all linked academic content are made available under the **M
 > [!NOTE]
 > **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
 
-Copyright © 2022 Amey Thakur, Mega Satish
+Copyright © 2022 Amey Thakur, Hasan Rizvi, Mega Satish
 
 ---
 
