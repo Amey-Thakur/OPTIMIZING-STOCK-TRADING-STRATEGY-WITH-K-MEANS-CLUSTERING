@@ -18,7 +18,7 @@ In accordance with established academic and professional standards for security 
 
 To document a security concern, communication is facilitated with the project curators:
   - **Primary Curator**: [Amey Thakur](https://github.com/Amey-Thakur)
-  - **Collaborators**: [Hasan Rizvi](https://github.com/rizvihasan), [Mega Satish](https://github.com/msatmod)
+  - **Collaborators**: [Mega Satish](https://github.com/msatmod)
   - **Method**: Reports are submitted via the repository’s [GitHub Issues](https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/issues) interface to formally record security-related findings.
 
 Submissions include:
