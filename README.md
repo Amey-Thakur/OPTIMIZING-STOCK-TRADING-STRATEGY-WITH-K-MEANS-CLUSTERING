@@ -89,11 +89,11 @@ OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
 │   └── BDA_MINI-PROJECT_REPORT_BE-COMPS...        # Technical Project Report (PDF/DOCX)
 │
 ├── Source Code/                                   # Model Implementation
-│   └── OPTIMIZING STOCK TRADING STRATEGY...ipynb  # Core K-Means Analysis Notebook
+│   ├── OPTIMIZING STOCK TRADING STRATEGY...ipynb  # Core K-Means Analysis Notebook
+│   └── Stock_Market_Clustering.py                 # Production-ready Python Script
 │
 ├── .gitattributes                                 # Global Git Config
 ├── .gitignore                                     # Asset Exclusion Manifest
-├── main.py                                        # Production-ready Python Script
 ├── requirements.txt                               # Dependency Manifest
 ├── CITATION.cff                                   # Scholarly Citation Metadata
 ├── LICENSE                                        # MIT License Terms
@@ -117,7 +117,7 @@ OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
     ```
 2.  **Run the script**:
     ```bash
-    python main.py
+    python "Source Code/Stock_Market_Clustering.py"
     ```
 3.  **Explore the Notebook**:
     The original analysis is also available in `Source Code/OPTIMIZING STOCK TRADING STRATEGY WITH K-MEANS CLUSTERING.ipynb`.
