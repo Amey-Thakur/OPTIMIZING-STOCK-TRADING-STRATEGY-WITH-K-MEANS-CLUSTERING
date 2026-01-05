@@ -43,7 +43,7 @@
   </td>
   <td align="center">
   <a href="https://github.com/msatmod">
-  <img src="Mega/Mega_Professional.jpg" width="150px;" alt="Mega Satish"/><br />
+  <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
   <sub><b>Mega Satish</b></sub>
   </a>
   </td>
@@ -88,11 +88,13 @@ OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
 │   ├── BDA_MINI-PROJECT_PPT_BE-COMPS...           # Project Presentation (PDF/PPTX)
 │   └── BDA_MINI-PROJECT_REPORT_BE-COMPS...        # Technical Project Report (PDF/DOCX)
 │
-├── Source code/                                   # Model Implementation
+├── Source Code/                                   # Model Implementation
 │   └── OPTIMIZING STOCK TRADING STRATEGY...ipynb  # Core K-Means Analysis Notebook
 │
 ├── .gitattributes                                 # Global Git Config
 ├── .gitignore                                     # Asset Exclusion Manifest
+├── main.py                                        # Production-ready Python Script
+├── requirements.txt                               # Dependency Manifest
 ├── CITATION.cff                                   # Scholarly Citation Metadata
 ├── LICENSE                                        # MIT License Terms
 └── README.md                                      # Comprehensive Archival Entrance
@@ -105,7 +107,7 @@ OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
 
 ### 1. Prerequisites
 - **Python**: 3.8+ recommended.
-- **Libraries**: `pandas`, `numpy`, `matplotlib`, `scikit-learn`, `pandas-datareader`.
+- **Dependencies**: Install via `pip install -r requirements.txt`.
 
 ### 2. Execution
 1.  **Clone the Repository**:
@@ -113,8 +115,12 @@ OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
     git clone https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING.git
     cd OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING
     ```
-2.  **Open Notebook**:
-    Run the Jupyter Notebook located in `Source code/` to reproduce the analysis.
+2.  **Run the script**:
+    ```bash
+    python main.py
+    ```
+3.  **Explore the Notebook**:
+    The original analysis is also available in `Source Code/OPTIMIZING STOCK TRADING STRATEGY WITH K-MEANS CLUSTERING.ipynb`.
 
 ---
 
