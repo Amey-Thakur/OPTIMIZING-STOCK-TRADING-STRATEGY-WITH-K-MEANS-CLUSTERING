@@ -41,7 +41,7 @@
   </td>
   <td align="center">
   <a href="https://github.com/msatmod">
-  <img src="https://github.com/msatmod.png" width="150px;" alt="Mega Satish"/><br />
+  <img src="Mega/Mega_Professional.jpg" width="150px;" alt="Mega Satish"/><br />
   <sub><b>Mega Satish</b></sub>
   </a>
   </td>
