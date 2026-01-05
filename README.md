@@ -1,6 +1,5 @@
 <div align="center">
 
-
   <a name="readme-top"></a>
   # Optimizing Stock Trading Strategy with K-Means Clustering
 
