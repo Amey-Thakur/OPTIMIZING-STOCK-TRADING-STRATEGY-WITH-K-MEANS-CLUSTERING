@@ -121,21 +121,30 @@ OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
 ## Quick Start
 
 ### 1. Prerequisites
-- **Python**: 3.8+ recommended.
-- **Dependencies**: Install via `pip install -r requirements.txt`.
+Ensure your environment meets the minimum specifications:
+- **Python**: Version **3.8** or higher.
+- **Hardware**: 4GB Minimum RAM (8GB recommended for large datasets).
+- **Environment**: Virtual environment (venv) is highly recommended.
 
-### 2. Execution
+### 2. Setup & Deployment
 1.  **Clone the Repository**:
     ```bash
     git clone https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING.git
     cd OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING
     ```
-2.  **Run the script**:
+2.  **Install Dependencies**:
     ```bash
-    python "Source Code/Stock_Market_Clustering.py"
+    pip install -r requirements.txt
     ```
-3.  **Explore the Notebook**:
-    The original analysis is also available in `Source Code/OPTIMIZING STOCK TRADING STRATEGY WITH K-MEANS CLUSTERING.ipynb`.
+
+### 3. Launch Application
+1.  **Run the Python Script**:
+    ```bash
+    cd "Source Code"
+    python Stock_Market_Clustering.py
+    ```
+2.  **Explore the Notebook**:
+    -   Open `OPTIMIZING STOCK TRADING STRATEGY WITH K-MEANS CLUSTERING.ipynb` in Jupyter Notebook for interactive analysis.
 
 ---
 
