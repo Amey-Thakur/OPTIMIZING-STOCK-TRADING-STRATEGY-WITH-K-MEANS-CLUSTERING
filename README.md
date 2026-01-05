@@ -10,7 +10,7 @@
 
   An analytical project utilizing unsupervised machine learning to cluster stocks based on their volatility and returns, identifying latent market patterns and optimizing diversified trading strategies.
 
-  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Mini-Project](Mini-Project/)** &nbsp;&middot;&nbsp; **[Curriculum Repository](https://github.com/Amey-Thakur/BIG-DATA-ANALYTICS-AND-COMPUTATIONAL-LAB-I)** &nbsp;&middot;&nbsp; **[Project Demo](https://youtu.be/Q82a93hjxJE)**
+  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;&middot;&nbsp; **[Video Demo](https://youtu.be/Q82a93hjxJE)**
 
   [![Optimizing Stock Trading Strategy Demo](https://img.youtube.com/vi/Q82a93hjxJE/0.jpg)](https://youtu.be/Q82a93hjxJE)
 
