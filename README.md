@@ -135,7 +135,7 @@ This repository is openly shared to support learning and knowledge exchange acro
 Use this project as a reference for understanding clustering algorithms, financial data preprocessing, and the application of Big Data Analytics in stock market optimization.
 
 **For Educators**  
-These materials may serve as curriculum references or supplementary teaching aids for Big Data Analytics or Computational Laboratory modules (`CSL704`). Attribution is appreciated when utilizing content.
+This project may serve as a practical example or supplementary teaching resource for Big Data Analytics (`CSDLO7032`) and Computational Laboratory–I (`CSL704`) modules. Attribution is appreciated when utilizing content.
 
 **For Researchers**  
 The implementation provides a foundation for exploring more advanced clustering techniques (e.g., DBSCAN, Hierarchical Clustering) and sentiment-integrated market analysis.
