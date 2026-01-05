@@ -1,0 +1,53 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Optimizing Stock Trading Strategy with K-Means Clustering",
+    "description": "An analytical project utilizing unsupervised machine learning to cluster stocks based on their volatility and returns, identifying latent market patterns and optimizing diversified trading strategies.",
+    "identifier": "OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING",
+    "license": "https://spdx.org/licenses/MIT.html",
+    "programmingLanguage": [
+        "Python"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Amey",
+            "familyName": "Thakur",
+            "id": "https://orcid.org/0000-0001-5644-1575",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mega",
+            "familyName": "Satish",
+            "id": "https://github.com/msatmod",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        }
+    ],
+    "dateReleased": "2022-01-19",
+    "codeRepository": "https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING",
+    "developmentStatus": "complete",
+    "runtimePlatform": [
+        "Python 3.8+",
+        "Scikit-Learn",
+        "Pandas",
+        "yfinance"
+    ],
+    "applicationCategory": "Big Data Analytics / Financial Engineering",
+    "keywords": [
+        "Stock Market",
+        "K-Means Clustering",
+        "PCA",
+        "Machine Learning",
+        "Financial Analysis",
+        "Big Data Analytics",
+        "Data Optimization",
+        "Computer Engineering"
+    ]
+}
