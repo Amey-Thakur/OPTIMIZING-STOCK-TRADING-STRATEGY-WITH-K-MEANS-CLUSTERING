@@ -84,20 +84,35 @@ Developed as a mini-project for the **Big Data Analytics & Computational Lab - I
 ```bash
 OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
 │
-├── Mini-Project/                                  # Academic Documentation
-│   ├── BDA_MINI-PROJECT_PPT_BE-COMPS...           # Project Presentation (PDF/PPTX)
-│   └── BDA_MINI-PROJECT_REPORT_BE-COMPS...        # Technical Project Report (PDF/DOCX)
+├── docs/                                          # Formal Documentation
+│   └── SPECIFICATION.md                           # Technical Architecture & Spec
+│
+├── Mega/                                          # Archival Attribution Assets
+│   ├── Filly.jpg                                  # Project-related Content Asset
+│   ├── Mega.png                                   # Author Profile Image (Mega Satish)
+│   ├── Mega_Chair.png                             # Author Profile Context
+│   ├── Mega_Dining.jpg                            # Author Personal Context
+│   ├── Mega_Professional.jpg                      # Author Professional Portrait
+│   └── Mega_and_Hetvi.png                         # Collaborative Identity Asset
+│
+├── Mini-Project/                                  # Research & Academic Assets
+│   ├── BDA_MINI-PROJECT_PPT...pdf                 # Project Presentation (PDF)
+│   ├── BDA_MINI-PROJECT_PPT...pptx                # Project Presentation (PPTX)
+│   ├── BDA_MINI-PROJECT_REPORT...docx             # Technical Project Report (DOCX)
+│   └── BDA_MINI-PROJECT_REPORT...pdf              # Technical Project Report (PDF)
 │
 ├── Source Code/                                   # Model Implementation
 │   ├── OPTIMIZING STOCK TRADING STRATEGY...ipynb  # Core K-Means Analysis Notebook
 │   └── Stock_Market_Clustering.py                 # Production-ready Python Script
 │
-├── .gitattributes                                 # Global Git Config
+├── .gitattributes                                 # Global Git LFS & Config
 ├── .gitignore                                     # Asset Exclusion Manifest
 ├── requirements.txt                               # Dependency Manifest
 ├── CITATION.cff                                   # Scholarly Citation Metadata
+├── codemeta.json                                  # Software Metadata Manifest
 ├── LICENSE                                        # MIT License Terms
-└── README.md                                      # Comprehensive Archival Entrance
+├── README.md                                      # Comprehensive Archival Entrance
+└── SECURITY.md                                    # Vulnerability Exposure Policy
 ```
 
 ---
