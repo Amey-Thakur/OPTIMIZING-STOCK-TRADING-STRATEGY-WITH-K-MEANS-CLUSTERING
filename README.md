@@ -20,7 +20,7 @@
 
 <div align="center">
 
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -78,6 +78,11 @@ Developed as a mini-project for the **Big Data Analytics & Computational Lab - I
 | 3 | **Technical Presentation** | Visual overview of methodology and results | [View](Mini-Project/BDA_MINI-PROJECT_PPT_BE-COMPS_B-50,51,58.pdf) |
 | 4 | **Project Demo (YouTube)** | Real-time demonstration of the analysis | [View](https://youtu.be/Q82a93hjxJE) |
 
+> [!TIP]
+> **Cluster Validation Best Practices**
+>
+> Use the **Elbow Method** to identify the optimal number of clusters by plotting Within-Cluster Sum of Squares (WCSS). Complement this with the **Silhouette Score** to validate cluster cohesion and separation for robust market segmentation.
+
 ---
 
 <!-- FEATURES -->
@@ -98,11 +103,6 @@ Developed as a mini-project for the **Big Data Analytics & Computational Lab - I
 - **Data Processing**: Pandas, NumPy
 - **Visualization**: Matplotlib, Seaborn
 - **Data Source**: yfinance (Yahoo Finance API)
-
-> [!TIP]
-> **Cluster Validation Best Practices**
->
-> Use the **Elbow Method** to identify the optimal number of clusters by plotting Within-Cluster Sum of Squares (WCSS). Complement this with the **Silhouette Score** to validate cluster cohesion and separation for robust market segmentation.
 
 ---
 
@@ -236,7 +236,7 @@ Special thanks to the faculty members of the Department of Computer Engineering 
 
   [↑ Back to Top](#readme-top)
 
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
