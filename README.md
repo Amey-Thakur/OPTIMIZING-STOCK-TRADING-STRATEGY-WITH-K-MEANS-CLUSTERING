@@ -56,6 +56,8 @@
   </tr>
   </table>
 
+  *Special thanks to [Hasan Rizvi](https://github.com/rizvihasan) and [Mega Satish](https://github.com/msatmod) for their meaningful contributions, guidance, and support that helped shape this work.*
+
 </div>
 
 ---
@@ -75,6 +77,32 @@ Developed as a mini-project for the **Big Data Analytics & Computational Lab - I
 | 2 | **Technical Report** | Comprehensive project documentation | [View](Mini-Project/BDA_MINI-PROJECT_REPORT_BE-COMPS_B-50,51,58.pdf) |
 | 3 | **Technical Presentation** | Visual overview of methodology and results | [View](Mini-Project/BDA_MINI-PROJECT_PPT_BE-COMPS_B-50,51,58.pdf) |
 | 4 | **Project Demo (YouTube)** | Real-time demonstration of the analysis | [View](https://youtu.be/Q82a93hjxJE) |
+
+---
+
+<!-- FEATURES -->
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **K-Means Clustering** | Unsupervised segmentation of stocks based on volatility and returns metrics. |
+| **Data Acquisition** | Automated historical data retrieval via Yahoo Finance API (yfinance). |
+| **Feature Engineering** | Calculation of annualized volatility and returns for each stock. |
+| **Cluster Validation** | Elbow Method and Silhouette Score for optimal cluster determination. |
+| **Visualization** | Interactive scatter plots and cluster centroid analysis. |
+| **Portfolio Optimization** | Data-driven insights for diversified investment strategies. |
+
+### Tech Stack
+- **Language**: Python 3.8+
+- **ML Framework**: Scikit-Learn (K-Means, Silhouette Analysis)
+- **Data Processing**: Pandas, NumPy
+- **Visualization**: Matplotlib, Seaborn
+- **Data Source**: yfinance (Yahoo Finance API)
+
+> [!TIP]
+> **Cluster Validation Best Practices**
+>
+> Use the **Elbow Method** to identify the optimal number of clusters by plotting Within-Cluster Sum of Squares (WCSS). Complement this with the **Silhouette Score** to validate cluster cohesion and separation for robust market segmentation.
 
 ---
 
@@ -125,6 +153,11 @@ Ensure your environment meets the minimum specifications:
 - **Python**: Version **3.8** or higher.
 - **Hardware**: 4GB Minimum RAM (8GB recommended for large datasets).
 - **Environment**: Virtual environment (venv) is highly recommended.
+
+> [!WARNING]
+> **Technical Dependencies & Data Variability**
+>
+> This system is built using **Python 3.8+** and **Scikit-Learn**. Stock market data is inherently volatile; results may vary based on the date range and ticker symbols selected. For stable execution and reproducible analysis, it is recommended to run this in an isolated virtual environment.
 
 ### 2. Setup & Deployment
 1.  **Clone the Repository**:
