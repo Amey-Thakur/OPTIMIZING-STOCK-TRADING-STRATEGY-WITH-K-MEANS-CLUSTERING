@@ -21,6 +21,16 @@
         },
         {
             "@type": "Person",
+            "givenName": "Hasan",
+            "familyName": "Rizvi",
+            "id": "https://github.com/rizvihasan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        },
+        {
+            "@type": "Person",
             "givenName": "Mega",
             "familyName": "Satish",
             "id": "https://orcid.org/0000-0002-1844-9557",
