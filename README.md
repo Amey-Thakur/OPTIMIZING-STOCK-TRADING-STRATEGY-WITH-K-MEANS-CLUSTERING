@@ -10,7 +10,7 @@
 
   An analytical project utilizing unsupervised machine learning to cluster stocks based on their volatility and returns, identifying latent market patterns and optimizing diversified trading strategies.
 
-  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;&middot;&nbsp; **[Video Demo](https://youtu.be/Q82a93hjxJE)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/Q82a93hjxJE)**
 
   [![Optimizing Stock Trading Strategy Demo](https://img.youtube.com/vi/Q82a93hjxJE/0.jpg)](https://youtu.be/Q82a93hjxJE)
 
@@ -37,20 +37,29 @@
   <tr>
   <td align="center">
   <a href="https://github.com/Amey-Thakur">
-  <img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br />
+  <img src="https://github.com/Amey-Thakur.png" width="180px;" alt="Amey Thakur"/><br />
   <sub><b>Amey Thakur</b></sub>
+  </a><br /><br />
+  <a href="https://orcid.org/0000-0001-5644-1575">
+  <img src="https://img.shields.io/badge/ORCID-0000--0001--5644--1575-brightgreen" alt="ORCID"/>
   </a>
   </td>
   <td align="center">
   <a href="https://github.com/rizvihasan">
-  <img src="https://github.com/rizvihasan.png" width="150px;" alt="Hasan Rizvi"/><br />
+  <img src="https://github.com/rizvihasan.png" width="180px;" alt="Hasan Rizvi"/><br />
   <sub><b>Hasan Rizvi</b></sub>
+  </a><br /><br />
+  <a href="https://github.com/rizvihasan">
+  <img src="https://img.shields.io/badge/GitHub-rizvihasan-black?style=flat&logo=github" alt="GitHub"/>
   </a>
   </td>
   <td align="center">
   <a href="https://github.com/msatmod">
-  <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
+  <img src="Mega/Mega.png" width="180px;" alt="Mega Satish"/><br />
   <sub><b>Mega Satish</b></sub>
+  </a><br /><br />
+  <a href="https://orcid.org/0000-0002-1844-9557">
+  <img src="https://img.shields.io/badge/ORCID-0000--0002--1844--9557-brightgreen" alt="ORCID"/>
   </a>
   </td>
   </tr>
@@ -221,7 +230,7 @@ Copyright © 2022 Amey Thakur, Hasan Rizvi, Mega Satish
 
 This project features the **Optimizing Stock Trading Strategy with K-Means Clustering**, an analytical utility developed as a **7th Semester Mini-Project**. It explores the application of unsupervised machine learning for financial market analysis and portfolio optimization.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
+**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur) · [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 
