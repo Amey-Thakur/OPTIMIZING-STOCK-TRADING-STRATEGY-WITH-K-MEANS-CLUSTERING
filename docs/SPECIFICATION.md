@@ -1,4 +1,4 @@
-# Technical Specification: OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING
+# Technical Specification: Optimizing Stock Trading Strategy with K-Means Clustering
 
 ## Architectural Overview
 

@@ -33,39 +33,17 @@
 
   **Terna Engineering College | Computer Engineering | Batch of 2022**
 
-  <table>
-  <tr>
-  <td align="center">
-  <a href="https://github.com/Amey-Thakur">
-  <img src="https://github.com/Amey-Thakur.png" width="180px;" alt="Amey Thakur"/><br />
-  <sub><b>Amey Thakur</b></sub>
-  </a><br /><br />
-  <a href="https://orcid.org/0000-0001-5644-1575">
-  <img src="https://img.shields.io/badge/ORCID-0000--0001--5644--1575-brightgreen" alt="ORCID"/>
-  </a>
-  </td>
-  <td align="center">
-  <a href="https://github.com/rizvihasan">
-  <img src="https://github.com/rizvihasan.png" width="180px;" alt="Hasan Rizvi"/><br />
-  <sub><b>Hasan Rizvi</b></sub>
-  </a><br /><br />
-  <a href="https://github.com/rizvihasan">
-  <img src="https://img.shields.io/badge/GitHub-rizvihasan-black?style=flat&logo=github" alt="GitHub"/>
-  </a>
-  </td>
-  <td align="center">
-  <a href="https://github.com/msatmod">
-  <img src="Mega/Mega.png" width="180px;" alt="Mega Satish"/><br />
-  <sub><b>Mega Satish</b></sub>
-  </a><br /><br />
-  <a href="https://orcid.org/0000-0002-1844-9557">
-  <img src="https://img.shields.io/badge/ORCID-0000--0002--1844--9557-brightgreen" alt="ORCID"/>
-  </a>
-  </td>
-  </tr>
-  </table>
+  | <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br /><sub><b>Amey Thakur</b></sub></a><br /><a href="https://orcid.org/0000-0001-5644-1575"><img src="https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg" alt="ORCID"/></a> | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150px;" alt="Hasan Rizvi"/><br /><sub><b>Hasan Rizvi</b></sub></a><br /><a href="https://github.com/rizvihasan"><img src="https://img.shields.io/badge/GitHub-rizvihasan-181717.svg?style=flat&logo=github" alt="GitHub"/></a> | <a href="https://github.com/msatmod"><img src="https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/blob/main/Mega/Mega.png?raw=true" width="150px;" alt="Mega Satish"/><br /><sub><b>Mega Satish</b></sub></a><br /><a href="https://orcid.org/0000-0002-1844-9557"><img src="https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg" alt="ORCID"/></a> |
+  | :---: | :---: | :---: |
 
-  *Special thanks to [Hasan Rizvi](https://github.com/rizvihasan) and [Mega Satish](https://github.com/msatmod) for their meaningful contributions, guidance, and support that helped shape this work.*
+  > [!IMPORTANT]
+  > **Special Acknowledgement**
+  >
+  > <h3>🤝🏻 &nbsp; Hasan Rizvi & Mega Satish</h3>
+  >
+  > Special thanks to [Hasan Rizvi](https://github.com/rizvihasan) and [Mega Satish](https://github.com/msatmod) for their meaningful contributions, guidance, and support that helped shape this work.
+
+
 
 </div>
 
@@ -80,12 +58,13 @@ Developed as a mini-project for the **Big Data Analytics & Computational Lab - I
 
 ### Resources
 
-| # | Resource | Description | Link |
-|---|---|---|---|
-| 1 | **Project Model** | Complete Jupyter Notebook implementation | [View](Source%20Code/OPTIMIZING%20STOCK%20TRADING%20STRATEGY%20WITH%20K-MEANS%20CLUSTERING.ipynb) |
-| 2 | **Technical Report** | Comprehensive project documentation | [View](Mini-Project/BDA_MINI-PROJECT_REPORT_BE-COMPS_B-50,51,58.pdf) |
-| 3 | **Technical Presentation** | Visual overview of methodology and results | [View](Mini-Project/BDA_MINI-PROJECT_PPT_BE-COMPS_B-50,51,58.pdf) |
-| 4 | **Project Demo (YouTube)** | Real-time demonstration of the analysis | [View](https://youtu.be/Q82a93hjxJE) |
+| # | Resource | Description | Date | Marks |
+|---|---|---|---|---|
+| 1 | [**Project Model**](Source%20Code/OPTIMIZING%20STOCK%20TRADING%20STRATEGY%20WITH%20K-MEANS%20CLUSTERING.ipynb) | Complete Jupyter Notebook implementation | — | — |
+| 2 | [**Technical Specification**](docs/SPECIFICATION.md) | Technical Architecture & Spec | August 2021 | — |
+| 3 | [**Technical Report**](Mini-Project/BDA_MINI-PROJECT_REPORT_BE-COMPS_B-50,51,58.pdf) | Comprehensive project documentation | 2021 | — |
+| 4 | [**Technical Presentation**](Mini-Project/BDA_MINI-PROJECT_PPT_BE-COMPS_B-50,51,58.pdf) | Visual overview of methodology and results | 2021 | — |
+| 5 | [**Project Demo (YouTube)**](https://youtu.be/Q82a93hjxJE) | Real-time demonstration of the analysis | — | — |
 
 > [!TIP]
 > **Cluster Validation Best Practices**
@@ -118,11 +97,11 @@ Developed as a mini-project for the **Big Data Analytics & Computational Lab - I
 <!-- STRUCTURE -->
 ## Project Structure
 
-```bash
+```python
 OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
 │
 ├── docs/                                          # Formal Documentation
-│   └── SPECIFICATION.md                           # Technical Architecture & Spec
+│   └── SPECIFICATION.md                           # Technical Architecture & Specification
 │
 ├── Mega/                                          # Archival Attribution Assets
 │   ├── Filly.jpg                                  # Project-related Content Asset
@@ -143,7 +122,7 @@ OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
 │   └── Stock_Market_Clustering.py                 # Production-ready Python Script
 │
 ├── .gitattributes                                 # Global Git LFS & Config
-├── .gitignore                                     # Asset Exclusion Manifest
+│   └── .gitignore                                 # Asset Exclusion Manifest
 ├── requirements.txt                               # Dependency Manifest
 ├── CITATION.cff                                   # Scholarly Citation Metadata
 ├── codemeta.json                                  # Software Metadata Manifest
@@ -230,13 +209,13 @@ Copyright © 2022 Amey Thakur, Hasan Rizvi, Mega Satish
 
 This project features the **Optimizing Stock Trading Strategy with K-Means Clustering**, an analytical utility developed as a **7th Semester Mini-Project**. It explores the application of unsupervised machine learning for financial market analysis and portfolio optimization.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur) · [ORCID](https://orcid.org/0000-0001-5644-1575)
+**Connect**: [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 
-Grateful acknowledgment to **[Hasan Rizvi](https://github.com/rizvihasan)** and **[Mega Satish](https://github.com/msatmod)** for their pivotal roles and collaborative excellence during the development of this project. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
+Grateful acknowledgment to **[Hasan Rizvi](https://github.com/rizvihasan)** and **[Mega Satish](https://github.com/msatmod)** for their pivotal roles and collaborative excellence. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
 
-Special thanks to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance during the course of this project. Gratitude is also extended to the mentors and peers who supported this learning endeavor.
+Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance during the course of this project. Gratitude is also extended to the mentors and peers who supported this learning endeavor.
 
 ---
 
@@ -253,7 +232,7 @@ Special thanks to the faculty members of the Department of Computer Engineering 
 
   ---
 
-  ### Presented as part of the 7th Semester Mini-Project @ Terna Engineering College
+  #### Presented as part of the 7th Semester Mini-Project @ Terna Engineering College
 
   ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
 
