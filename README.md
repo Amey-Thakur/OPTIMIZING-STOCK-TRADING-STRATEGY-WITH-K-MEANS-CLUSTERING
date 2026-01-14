@@ -33,19 +33,14 @@
 
   **Terna Engineering College | Computer Engineering | Batch of 2022**
 
-  | <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br /><sub><b>Amey Thakur</b></sub></a><br /><a href="https://orcid.org/0000-0001-5644-1575"><img src="https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg" alt="ORCID"/></a> | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150px;" alt="Hasan Rizvi"/><br /><sub><b>Hasan Rizvi</b></sub></a><br /><a href="https://github.com/rizvihasan"><img src="https://img.shields.io/badge/GitHub-rizvihasan-181717.svg?style=flat&logo=github" alt="GitHub"/></a> | <a href="https://github.com/msatmod"><img src="https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/blob/main/Mega/Mega.png?raw=true" width="150px;" alt="Mega Satish"/><br /><sub><b>Mega Satish</b></sub></a><br /><a href="https://orcid.org/0000-0002-1844-9557"><img src="https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg" alt="ORCID"/></a> |
+  | <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150" height="150" alt="Hasan Rizvi"></a><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br><br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-181717.svg?style=flat&logo=github&logoColor=white)](https://github.com/rizvihasan) | <a href="https://github.com/msatmod"><img src="https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/blob/main/Mega/Mega.png?raw=true" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
   | :---: | :---: | :---: |
 
-  > [!IMPORTANT]
-  > **Special Acknowledgement**
-  >
-  > <h3>🤝🏻 &nbsp; Hasan Rizvi & Mega Satish</h3>
-  >
-  > Special thanks to [Hasan Rizvi](https://github.com/rizvihasan) and [Mega Satish](https://github.com/msatmod) for their meaningful contributions, guidance, and support that helped shape this work.
-
-
-
 </div>
+
+> [!IMPORTANT]
+> ### 🤝🏻 Special Acknowledgement
+> *Special thanks to **[Hasan Rizvi](https://github.com/rizvihasan)** and **[Mega Satish](https://github.com/msatmod)** for their meaningful contributions, guidance, and support that helped shape this work.*
 
 ---
 
@@ -58,13 +53,13 @@ Developed as a mini-project for the **Big Data Analytics & Computational Lab - I
 
 ### Resources
 
-| # | Resource | Description | Date | Marks |
-|---|---|---|---|---|
-| 1 | [**Project Model**](Source%20Code/OPTIMIZING%20STOCK%20TRADING%20STRATEGY%20WITH%20K-MEANS%20CLUSTERING.ipynb) | Complete Jupyter Notebook implementation | — | — |
-| 2 | [**Technical Specification**](docs/SPECIFICATION.md) | Technical Architecture & Spec | August 2021 | — |
-| 3 | [**Technical Report**](Mini-Project/BDA_MINI-PROJECT_REPORT_BE-COMPS_B-50,51,58.pdf) | Comprehensive project documentation | 2021 | — |
-| 4 | [**Technical Presentation**](Mini-Project/BDA_MINI-PROJECT_PPT_BE-COMPS_B-50,51,58.pdf) | Visual overview of methodology and results | 2021 | — |
-| 5 | [**Project Demo (YouTube)**](https://youtu.be/Q82a93hjxJE) | Real-time demonstration of the analysis | — | — |
+| # | Resource | Description |
+|---|---|---|
+| 1 | [**Project Model**](Source%20Code/OPTIMIZING%20STOCK%20TRADING%20STRATEGY%20WITH%20K-MEANS%20CLUSTERING.ipynb) | Complete Jupyter Notebook implementation |
+| 2 | [**Technical Specification**](docs/SPECIFICATION.md) | Technical Architecture & Specification |
+| 3 | [**Technical Report**](Mini-Project/BDA_MINI-PROJECT_REPORT_BE-COMPS_B-50,51,58.pdf) | Comprehensive project documentation |
+| 4 | [**Technical Presentation**](Mini-Project/BDA_MINI-PROJECT_PPT_BE-COMPS_B-50,51,58.pdf) | Visual overview of methodology and results |
+| 5 | [**Project Demo**](https://youtu.be/Q82a93hjxJE) | Real-time demonstration of the analysis |
 
 > [!TIP]
 > **Cluster Validation Best Practices**
@@ -104,12 +99,9 @@ OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
 │   └── SPECIFICATION.md                           # Technical Architecture & Specification
 │
 ├── Mega/                                          # Archival Attribution Assets
-│   ├── Filly.jpg                                  # Project-related Content Asset
+│   ├── Filly.jpg                                  # Companion (Filly)
 │   ├── Mega.png                                   # Author Profile Image (Mega Satish)
-│   ├── Mega_Chair.png                             # Author Profile Context
-│   ├── Mega_Dining.jpg                            # Author Personal Context
-│   ├── Mega_Professional.jpg                      # Author Professional Portrait
-│   └── Mega_and_Hetvi.png                         # Collaborative Identity Asset
+
 │
 ├── Mini-Project/                                  # Research & Academic Assets
 │   ├── BDA_MINI-PROJECT_PPT...pdf                 # Project Presentation (PDF)
@@ -213,9 +205,11 @@ This project features the **Optimizing Stock Trading Strategy with K-Means Clust
 
 ### Acknowledgments
 
-Grateful acknowledgment to **[Hasan Rizvi](https://github.com/rizvihasan)** and **[Mega Satish](https://github.com/msatmod)** for their pivotal roles and collaborative excellence. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
+Grateful acknowledgment to [**Hasan Rizvi**](https://github.com/rizvihasan) and [**Mega Satish**](https://github.com/msatmod) for their exceptional collaboration and scholarly partnership during the development of this project. Their technical expertise, constant support, and dedication to software quality were instrumental in achieving the project's analytical objectives. Learning alongside them was a transformative experience; their thoughtful approach to problem-solving and encouragement turned complex challenges into meaningful learning moments. This work reflects the growth and insights gained from our side-by-side academic journey. Thank you, Hasan and Mega, for everything you shared and taught along the way.
 
-Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance during the course of this project. Gratitude is also extended to the mentors and peers who supported this learning endeavor.
+Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Big Data Analytics. Their expertise in data science and machine learning helped shape the technical foundation of this project.
+
+Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning experience.
 
 ---
 
@@ -233,7 +227,9 @@ Grateful acknowledgment to the faculty members of the Department of Computer Eng
   ---
 
   #### Presented as part of the 7th Semester Mini-Project @ Terna Engineering College
-
+  
+  ---
+  
   ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
 
   **Computer Engineering (B.E.) - University of Mumbai**
