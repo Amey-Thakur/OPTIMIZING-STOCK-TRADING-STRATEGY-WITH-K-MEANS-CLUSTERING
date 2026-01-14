@@ -5,9 +5,15 @@
 * text=auto eol=lf
 
 # Explicitly mark source files as text
-*.ipynb text
-*.py text
-*.md text
+*.ipynb text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+*.json text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+requirements.txt text eol=lf
 
 # Mark binary files
 *.pdf binary
