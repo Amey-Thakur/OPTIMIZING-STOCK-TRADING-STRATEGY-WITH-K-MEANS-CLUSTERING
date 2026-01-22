@@ -361,7 +361,7 @@
             border-color: var(--accent);
         }
 
-        /* Loading Screen */
+        /* Loading Screen Styles */
         #loading-screen {
             position: fixed;
             top: 0;
@@ -371,6 +371,7 @@
             background: var(--bg-primary);
             z-index: 9999;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
@@ -381,13 +382,39 @@
             visibility: hidden;
         }
 
+        .loader-content {
+            text-align: center;
+        }
+
         .spinner {
-            width: 40px;
-            height: 40px;
+            width: 44px;
+            height: 44px;
             border: 3px solid rgba(88, 166, 255, 0.1);
             border-top: 3px solid var(--accent);
             border-radius: 50%;
-            animation: spin 1s linear infinite;
+            animation: spin 1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+            margin: 0 auto 20px;
+        }
+
+        .loading-text {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 0.6;
+            }
+
+            50% {
+                opacity: 1;
+            }
         }
 
         @keyframes spin {
@@ -406,7 +433,10 @@
 
     <!-- Loading Screen -->
     <div id="loading-screen">
-        <div class="spinner"></div>
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p class="loading-text">Loading BDA Mini Project...</p>
+        </div>
     </div>
 
     <div class="container">
@@ -491,11 +521,20 @@
 
     <script>
         // Hide loading screen
+        const hideLoading = () => {
+            const screen = document.getElementById('loading-screen');
+            if (screen && !screen.classList.contains('hidden')) {
+                screen.classList.add('hidden');
+            }
+        };
+
+        // Standard load trigger
         window.addEventListener('load', () => {
-            setTimeout(() => {
-                document.getElementById('loading-screen').classList.add('hidden');
-            }, 800);
+            setTimeout(hideLoading, 800);
         });
+
+        // Safety timeout: reveal page after 5 seconds regardless of asset loading
+        setTimeout(hideLoading, 5000);
 
         // Theme Toggle Logic
         function toggleTheme() {
