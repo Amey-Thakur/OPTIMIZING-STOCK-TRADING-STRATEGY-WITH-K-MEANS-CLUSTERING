@@ -10,7 +10,7 @@
 
   An analytical project utilizing unsupervised machine learning to cluster stocks based on their volatility and returns, identifying latent market patterns and optimizing diversified trading strategies.
 
-  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/Q82a93hjxJE)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/Q82a93hjxJE)** &nbsp;·&nbsp; **[Live Demo](https://Amey-Thakur.github.io/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/)**
 
   [![Optimizing Stock Trading Strategy Demo](https://img.youtube.com/vi/Q82a93hjxJE/0.jpg)](https://youtu.be/Q82a93hjxJE)
 
@@ -222,7 +222,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   <br>
 
-  🔬 **[Big Data Analytics Laboratory](https://github.com/Amey-Thakur/BIG-DATA-ANALYTICS-AND-COMPUTATIONAL-LAB-I)** &nbsp;·&nbsp; 📊 **[Optimizing Stock Trading Strategy](https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING)**
+  🔬 **[Big Data Analytics Laboratory](https://github.com/Amey-Thakur/BIG-DATA-ANALYTICS-AND-COMPUTATIONAL-LAB-I)** &nbsp;·&nbsp; 📊 **[Optimizing Stock Trading Strategy](https://Amey-Thakur.github.io/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/)**
 
   ---
 
