@@ -199,7 +199,7 @@ Copyright © 2022 Amey Thakur, Hasan Rizvi, Mega Satish
 **Institution**: [Terna Engineering College](https://ternaengg.ac.in/), Navi Mumbai  
 **University**: [University of Mumbai](https://mu.ac.in/)
 
-This project features the **Optimizing Stock Trading Strategy with K-Means Clustering**, an analytical utility developed as a **Mini-Project**. It explores the application of unsupervised machine learning for financial market analysis and portfolio optimization.
+This project features the **Optimizing Stock Trading Strategy with K-Means Clustering**, an analytical utility developed as a **7th Semester Mini-Project**. It explores the application of unsupervised machine learning for financial market analysis and portfolio optimization.
 
 **Connect**: [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
@@ -226,7 +226,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   ---
 
-  #### Presented as part of the Mini-Project @ Terna Engineering College
+  #### Presented as part of the 7th Semester Mini-Project @ Terna Engineering College
   
   ---
   
