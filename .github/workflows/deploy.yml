@@ -1,6 +1,6 @@
 name: Deploy JupyterLite
 
-on:
+"on":
   push:
     branches:
       - main
