@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-01-22T01:37:39.813326Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-01-14T05:02:39.370834Z",
+      "mimetype": null,
+      "name": "OPTIMIZING STOCK TRADING STRATEGY WITH K-MEANS CLUSTERING.ipynb",
+      "path": "OPTIMIZING STOCK TRADING STRATEGY WITH K-MEANS CLUSTERING.ipynb",
+      "size": 913058,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-01-22T01:37:39.821018Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-01-14T05:02:39.396801Z",
+      "mimetype": "text/x-python",
+      "name": "Stock_Market_Clustering.py",
+      "path": "Stock_Market_Clustering.py",
+      "size": 10036,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-01-22T01:37:39.812154Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-01-22T01:37:39.821018Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
