@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Strategy Optimization | Amey & Mega</title>
+    <style>
+        :root {
+            --bg-primary: #0a0e14;
+            --bg-secondary: #11171e;
+            --bg-card: #161b22;
+            --border-color: #30363d;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --accent: #58a6ff;
+            --success: #2ea043;
+            --gold: #d29922;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f6f8fa;
+            --bg-card: #ffffff;
+            --border-color: #d0d7de;
+            --text-primary: #24292f;
+            --text-secondary: #57606a;
+            --accent: #0969da;
+            --success: #1a7f37;
+            --gold: #9a6700;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(to right, var(--accent), #a371f7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .header p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .header .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            background: rgba(88, 166, 255, 0.1);
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Hero Action */
+        .hero-action {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.27);
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(88, 166, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 25px rgba(88, 166, 255, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .btn-outline:hover {
+            background: var(--bg-card);
+            border-color: var(--text-secondary);
+            transform: translateY(-3px);
+        }
+
+        /* Card Sections */
+        .section {
+            margin-bottom: 80px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .section-title::before,
+        .section-title::after {
+            content: "";
+            height: 1px;
+            width: 50px;
+            background: var(--border-color);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 30px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+
+        .card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 15px;
+            color: var(--accent);
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Tech Stack */
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .tech-badge {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .tech-badge:hover {
+            background: var(--border-color);
+            transform: scale(1.05);
+        }
+
+        /* Laptop Mockup */
+        .laptop-container {
+            perspective: 2000px;
+            margin: 60px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .macbook {
+            width: 100%;
+            max-width: 800px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.5s ease;
+            animation: macbookReveal 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.27);
+        }
+
+        @keyframes macbookReveal {
+            from {
+                opacity: 0;
+                transform: rotateX(-30deg) translateY(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: rotateX(0) translateY(0);
+            }
+        }
+
+        .macbook .screen {
+            background: #0d1117;
+            border-radius: 12px 12px 0 0;
+            border: 1px solid #30363d;
+            border-bottom: none;
+            padding: 8px 8px 0 8px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+            z-index: 10;
+        }
+
+        .macbook .viewport {
+            background: #000;
+            padding-bottom: 56.25%;
+            height: 0;
+            border-radius: 4px 4px 0 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .macbook .viewport img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+            filter: grayscale(0.5);
+            transition: all 0.5s;
+        }
+
+        .macbook:hover .viewport img {
+            opacity: 1;
+            filter: grayscale(0);
+            transform: scale(1.05);
+        }
+
+        .macbook .base {
+            background: #161b22;
+            height: 24px;
+            width: 120%;
+            margin-left: -10%;
+            border-radius: 0 0 20px 20px;
+            position: relative;
+            z-index: 9;
+            border: 1px solid #30363d;
+            border-top: none;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .macbook .base::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 15%;
+            height: 6px;
+            background: #30363d;
+            border-radius: 0 0 8px 8px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            padding-top: 40px;
+            margin-top: 80px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.2s;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+            border-color: var(--accent);
+        }
+
+        /* Loading Screen */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-primary);
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+        }
+
+        #loading-screen.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(88, 166, 255, 0.1);
+            border-top: 3px solid var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <span id="theme-icon">🌙</span>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="badge">🚀 BDA Mini Project | Sem VII</div>
+            <h1>Optimizing Stock Trading Strategy</h1>
+            <p>Using K-Means Clustering for Market Segmentation and Performance Analysis. Grouping companies based on
+                volatility and return patterns to identify optimal trading opportunities.</p>
+
+            <div class="hero-action">
+                <a href="interactive/lab/index.html?path=OPTIMIZING%20STOCK%20TRADING%20STRATEGY%20WITH%20K-MEANS%20CLUSTERING.ipynb"
+                    class="btn btn-primary">
+                    Launch Interactive Notebook
+                </a>
+                <a href="https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING"
+                    class="btn btn-outline">
+                    View Source Code
+                </a>
+            </div>
+        </header>
+
+        <!-- Preview Mockup -->
+        <div class="laptop-container">
+            <div class="macbook">
+                <div class="screen">
+                    <div class="viewport">
+                        <img src="https://raw.githubusercontent.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/main/Mini-Project/Figures/stocks_clustering.png"
+                            alt="Notebook Preview"
+                            onerror="this.src='https://images.unsplash.com/photo-1611974717482-98aa00374528?auto=format&fit=crop&q=80&w=1200'">
+                    </div>
+                </div>
+                <div class="base"></div>
+            </div>
+        </div>
+
+        <!-- Project Highlights -->
+        <section class="section">
+            <h2 class="section-title">Key Methodologies</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>K-Means Clustering</h3>
+                    <p>Implementing unsupervised machine learning to group 30+ major S&P 500 companies based on their
+                        historical price movement patterns.</p>
+                </div>
+                <div class="card">
+                    <h3>Normalization</h3>
+                    <p>Using <code>Normalizer</code> to scale features independently, ensuring that volume and price
+                        variations are comparable across different market caps.</p>
+                </div>
+                <div class="card">
+                    <h3>Technical Indicators</h3>
+                    <p>Engineering features from Daily Returns and Intraday Volatility to provide a multifaceted view of
+                        market dynamics.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="section">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="tech-stack">
+                <div class="tech-badge">🐍 Python 3.x</div>
+                <div class="tech-badge">📊 Pandas</div>
+                <div class="tech-badge">🔢 NumPy</div>
+                <div class="tech-badge">🤖 Scikit-Learn</div>
+                <div class="tech-badge">📉 Matplotlib</div>
+                <div class="tech-badge">📑 Jupyter</div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2021 <a href="https://github.com/Amey-Thakur">Amey Thakur</a> & <a
+                    href="https://github.com/msatmod">Mega Satish</a></p>
+            <p style="margin-top: 15px;">
+                <a href="https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING">GitHub
+                    Repository</a> ·
+                <a href="docs/SPECIFICATION.md">Documentation</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Hide loading screen
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loading-screen').classList.add('hidden');
+            }, 800);
+        });
+
+        // Theme Toggle Logic
+        function toggleTheme() {
+            const html = document.documentElement;
+            const icon = document.getElementById('theme-icon');
+            if (html.dataset.theme === 'dark') {
+                html.dataset.theme = 'light';
+                icon.textContent = '☀️';
+                localStorage.setItem('theme', 'light');
+            } else {
+                html.dataset.theme = 'dark';
+                icon.textContent = '🌙';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        // Apply saved theme
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.dataset.theme = savedTheme;
+        document.getElementById('theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
+    </script>
+</body>
+
+</html>
