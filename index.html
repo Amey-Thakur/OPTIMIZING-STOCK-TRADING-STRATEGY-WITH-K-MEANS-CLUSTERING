@@ -384,43 +384,54 @@
 
         .loader-content {
             text-align: center;
+            width: 100%;
+            max-width: 300px;
+            padding: 0 20px;
         }
 
-        .spinner {
-            width: 44px;
-            height: 44px;
-            border: 3px solid rgba(88, 166, 255, 0.1);
-            border-top: 3px solid var(--accent);
-            border-radius: 50%;
-            animation: spin 1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-            margin: 0 auto 20px;
+        .progress-container {
+            width: 100%;
+            height: 4px;
+            background: rgba(88, 166, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .progress-bar {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), #a371f7);
+            border-radius: 10px;
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 0 15px rgba(88, 166, 255, 0.5);
         }
 
         .loading-text {
-            font-size: 14px;
+            font-size: 13px;
             color: var(--text-secondary);
             font-weight: 500;
-            letter-spacing: 0.05em;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
-            animation: pulse 1.5s ease-in-out infinite;
         }
 
-        @keyframes pulse {
-
-            0%,
-            100% {
-                opacity: 0.6;
+        @keyframes progressSim {
+            0% {
+                width: 0%;
             }
 
             50% {
-                opacity: 1;
+                width: 70%;
+            }
+
+            100% {
+                width: 90%;
             }
         }
 
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
+        .progress-bar.simulating {
+            animation: progressSim 4s forwards cubic-bezier(0.1, 0, 0.2, 1);
         }
     </style>
 </head>
@@ -434,8 +445,10 @@
     <!-- Loading Screen -->
     <div id="loading-screen">
         <div class="loader-content">
-            <div class="spinner"></div>
-            <p class="loading-text">Loading BDA Mini Project...</p>
+            <div class="progress-container">
+                <div class="progress-bar simulating" id="main-progress-bar"></div>
+            </div>
+            <p class="loading-text">Optimizing Strategy...</p>
         </div>
     </div>
 
@@ -523,9 +536,17 @@
         // Hide loading screen
         const hideLoading = () => {
             const screen = document.getElementById('loading-screen');
-            if (screen && !screen.classList.contains('hidden')) {
-                screen.classList.add('hidden');
+            const bar = document.getElementById('main-progress-bar');
+            if (bar) {
+                bar.classList.remove('simulating');
+                bar.style.width = '100%';
             }
+
+            setTimeout(() => {
+                if (screen && !screen.classList.contains('hidden')) {
+                    screen.classList.add('hidden');
+                }
+            }, 400);
         };
 
         // Standard load trigger
