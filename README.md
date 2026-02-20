@@ -164,11 +164,11 @@ Ensure your environment meets the minimum specifications:
 >
 > Experience a high-fidelity interactive simulation grouping major S&P 500 companies based on volatility and return patterns to identify optimal trading opportunities through unsupervised machine learning and advanced market segmentation.
 >
-> Launch Interactive Notebook: https://amey-thakur.github.io/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
+> [**Launch Interactive Notebook**](https://amey-thakur.github.io/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/)
 >
 > Recent enhancements also include a Reinforcement Learning (RL) gateway for advanced strategy optimization.
 >
-> Launch Stock Trading RL Web App: https://huggingface.co/spaces/ameythakur/Stock-Trading-RL
+> [**Launch Stock Trading RL Web App**](https://huggingface.co/spaces/ameythakur/Stock-Trading-RL)
 
 ---
 
