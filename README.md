@@ -159,6 +159,13 @@ Ensure your environment meets the minimum specifications:
 2.  **Explore the Notebook**:
     -   Open `OPTIMIZING STOCK TRADING STRATEGY WITH K-MEANS CLUSTERING.ipynb` in Jupyter Notebook for interactive analysis.
 
+> [!TIP]
+> **Optimizing Stock Trading Strategy with K-Means Clustering**
+>
+> Experience a high-fidelity interactive simulation grouping major S&P 500 companies based on volatility and return patterns to identify optimal trading opportunities through unsupervised machine learning and advanced market segmentation.
+>
+> Launch Interactive Notebook: https://amey-thakur.github.io/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
+
 ---
 
 <!-- =========================================================================================
