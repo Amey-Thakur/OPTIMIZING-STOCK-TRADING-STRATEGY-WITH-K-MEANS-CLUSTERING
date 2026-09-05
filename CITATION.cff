@@ -13,3 +13,7 @@ title: "OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING"
 version: 1.0.0
 date-released: 2022-01-19
 url: "https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING"
+identifiers:
+  - type: other
+    value: "2021-10-26"
+    description: "Date this repository was created on GitHub."

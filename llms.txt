@@ -1,0 +1,38 @@
+# Optimizing Stock Trading Strategy with K-Means Clustering
+
+> Big Data Analytics [BDA] Mini Project
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Hasan Rizvi
+Co-author: Mega Satish, ORCID 0000-0002-1844-9557
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering, Fourth Year, Semester VII
+Licence: CC BY 4.0, attribution required
+Repository created: 26 October 2021
+Work dated: 19 January 2022
+
+## What is in this repository
+
+- Mega, 6 files
+- Mini-Project, 4 files
+- Source Code, 2 files
+- docs, 1 file
+- interactive, 809 files
+- index.html
+- requirements.txt
+
+## Subject terms
+
+algorithmic-trading, big-data, big-data-analytics,
+big-data-analytics-techniques, computer-engineering, computer-science,
+engineering, financial-data-science, jupyter-notebook, k-means-clustering,
+market-segmentation, portfolio-optimization, scikit-learn,
+stock-market-analysis, university-of-mumbai
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Project page: https://amey-thakur.github.io/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/

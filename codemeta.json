@@ -40,8 +40,10 @@
             }
         }
     ],
+    "dateCreated": "2021-10-26",
     "dateReleased": "2022-01-19",
     "codeRepository": "https://github.com/Amey-Thakur/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING",
+    "isPartOf": "https://github.com/Amey-Thakur/COMPUTER-ENGINEERING",
     "developmentStatus": "complete",
     "runtimePlatform": [
         "Python 3.8+",
@@ -58,6 +60,38 @@
         "Financial Analysis",
         "Big Data Analytics",
         "Data Optimization",
-        "Computer Engineering"
-    ]
+        "Computer Engineering",
+        "Algorithmic Trading",
+        "Big Data",
+        "Big Data Analytics Techniques",
+        "Computer Science",
+        "Engineering",
+        "Financial Data Science",
+        "Jupyter Notebook",
+        "K Means Clustering",
+        "Market Segmentation",
+        "Portfolio Optimization",
+        "Scikit Learn",
+        "Stock Market Analysis",
+        "University Of Mumbai",
+        "BDA",
+        "University of Mumbai",
+        "Mumbai University",
+        "Terna Engineering College",
+        "Navi Mumbai",
+        "India",
+        "B.E. Computer Engineering",
+        "Semester VII",
+        "Laboratory Work",
+        "Jupyter Notebooks",
+        "BE Comps",
+        "Amey Thakur",
+        "amey",
+        "ameythakur",
+        "amey-thakur",
+        "ameyarc",
+        "Mega Satish",
+        "megasatish"
+    ],
+    "url": "https://amey-thakur.github.io/OPTIMIZING-STOCK-TRADING-STRATEGY-WITH-K-MEANS-CLUSTERING/"
 }
